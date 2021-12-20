@@ -1,0 +1,105 @@
+*{
+    font-family: sans-serif;
+}
+body{background-color: lightgray;
+    
+}
+header{
+    color: grey;
+    text-align: center;
+    animation: doimau ease 0.5s infinite;
+    text-shadow: 3px 3px whitesmoke ;
+}
+section.cars{
+    display: flex;
+    
+}
+div.car{
+    width: 25%;
+    text-align: center;
+    padding: 5px;
+    background-color: grey;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+div.car > img {
+    width: 100%;
+    transition: transform ease 0.9s;
+}
+div.car > img:hover{
+    transform: scale(1.2);
+}
+footer {
+    background-color: black;
+    color: white;
+    
+    
+}
+@keyframes doimau{
+    from {
+        color: peru;
+    }
+    to{
+        color: powderblue;
+    }
+}
+footer h1, footer p{
+    text-align: center;
+}
+.contact {
+    display: flex;
+}
+.col25{
+    width: 25%;
+}
+.col50{
+    width: 50%;
+}
+table.msg{
+    width: 100%;
+}
+input[type=text]{
+    width: 90%;
+    padding: 10px;
+}
+textarea{
+    width: 92%;
+    padding: 20px;
+}
+input[type=submit]{
+    padding: 10px;
+    background-color: orangered;
+    border:0;
+
+}
+table.msg tr:last-child{
+    text-align: center;
+}
+nav {
+    background-color: orchid;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul >li >a {
+    text-decoration: none;
+    padding: 15px;
+    display: flex;
+}
+nav ul >li >a:hover{
+    background-color: papayawhip;
+}
+.subcontent{
+    display: none;
+    background-color: chocolate;
+    position: absolute;
+    width: 130px;
+}
+.submenu:hover .subcontent{
+        display: block;
+}
